@@ -228,20 +228,20 @@ function Square(props) {
       }, 500);
   }
 
-  const SquareWrapper = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    height: 47px;
-    width: 47px;
-    border-radius: 7px;
-    background-color: ${props.color};
-    top: ${pos[1][0] * 50 + 25}px;
-    left: ${pos[1][1] * 50 + 25}px;
-    transition: top 0.5s, left 0.5s;
-  `;
+  // const SquareWrapper = styled.div`
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  //   position: absolute;
+  //   height: 47px;
+  //   width: 47px;
+  //   border-radius: 7px;
+  //   background-color: ${props.color};
+  //   top: ${pos[1][0] * 50 + 25}px;
+  //   left: ${pos[1][1] * 50 + 25}px;
+  //   transition: top 0.5s, left 0.5s;
+  // `;
 
   return (
     // <SquareWrapper>
